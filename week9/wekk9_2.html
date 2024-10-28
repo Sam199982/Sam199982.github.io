@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div{ 
+            /* display: inline-block; */ 
+            background-color: rgb(224, 204, 242); 
+            border: 1px solid #715; 
+            width: 150px; 
+            height:60px; 
+            /* position:static; */ 
+        } 
+        #n3:hover{opacity: 0.6; 
+        }   
+        .sub{ 
+            
+            background-color: blanchedalmond; 
+            position: relative; 
+            top:100px; 
+            left:30px;
+            margin:5px; 
+            padding: 5px;
+        }  
+        .sub:hover{
+            opacity: 0.6;
+            border: 5px double red;
+        }
+        #fix{ 
+            position: fixed;    
+            /* position: absolute;  */ 
+            bottom:50px; 
+            right:100px; 
+        } 
+        #float{ 
+            position: fixed; 
+            left:400px; 
+            bottom: 50px;
+            width: 400px; 
+            height:330px; 
+            padding: 5px;
+            
+        }    
+    </style>
+</head>
+<body>
+    div 태그 (인라인-블록)<br> 
+    <div>DIV1</div> 
+    <div class="sub">DIV2 </div> 
+    <div id="n3">DIV3 </div> 
+    <div class="sub">DIV4   </div> 
+    <div> DIV5 </div> 
+    <div id="fix"> DIV6 </div> 
+    <div id="float">
+        <img src="img/turkey.png" width="200px" style="float:left">
+        튀르키예의 국기는 
+        '아이 이을드즈(Ay yıldız, 달과 별)'로, 한국어로는 이를 직역한
+         '월성기(月星旗)'라는 표현도 사용된다. 빨강 바탕에 하얀 초승달과
+          별이 그려진 국기로, 기원전 4세기 마케도니아의 군세가 이스탄불
+          (당시 비잔티움)의 성벽을 뚫고 침입하려고 하였을 때 초승달과 별빛으로 
+          나라를 구하였다는 속설을 그렸으며 1398년 1차 코소보 전투 때 피로 물든
+          바다에서 달과 별이 있다는 상징이 있다. 자세한 내용은 월성기 참조.
+
+        오스만 제국의 국기와도 사실상 똑같은 모습이지만, 오스만 제국의 국기는
+         초승달과 별이 더 두껍다.
+        
+       
+        
+    </div>
+    <div class="sub">
+        class 면 .
+        id    면 #
+    </div>
+</body>
+</html>

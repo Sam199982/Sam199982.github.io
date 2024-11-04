@@ -8,6 +8,21 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
+/*학번이름*/
+.studentnum{
+    padding: 10px;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    border: 3px solid #111;
+    color: whitesmoke;
+    border-radius: 5px;
+    background-color: #111;
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
 
 /* 고정된 사이드바 */
 .sidebar {
